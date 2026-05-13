@@ -1,0 +1,105 @@
+.Rproj.user
+.positai
+*.csv
+data/
+
+
+# renv: keep
+!renv.lock
+!renv/activate.R
+!renv/settings.json
+!renv/.gitignore
+
+# R session files
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata/
+.Rproj.user/
+
+# RStudio / Posit
+*.Rproj.user
+.rs.restartR
+.Rprofile.local
+
+# R package build/check artifacts
+*.tar.gz
+*.Rcheck/
+check/
+Meta/
+doc/
+
+# compiled artifacts
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+src/*.a
+src/*.rds
+src/*.mod
+src/*.smod
+src/Makevars
+src/Makevars.win
+
+# roxygen2 temporary files
+man-roxygen/
+
+# testthat artifacts
+tests/testthat/_snaps/
+tests/testthat/output/
+tests/testthat/*.Rout
+tests/testthat/*.Rout.fail
+
+# coverage
+.Rcoverage
+coverage/
+covr/
+
+# renv: ignore local machine-specific libraries/caches
+renv/library/
+renv/staging/
+renv/python/
+renv/sandbox/
+renv/local/
+renv/cellar/
+renv.lock.bak
+
+
+# Quarto / R Markdown outputs
+*_cache/
+*_files/
+*.html
+*.pdf
+*.docx
+*.nb.html
+.quarto/
+_freeze/
+
+# temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python artifacts, useful if mixed R/Python later
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# large/private atlas data - uncomment if needed
+# data/
+# inst/extdata/
+# *.csv
+# *.tsv
+# *.h5ad
+# *.h5
+# *.rds
+# *.rda

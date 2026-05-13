@@ -1,0 +1,23 @@
+Package: obesityatlas
+Title: Explore the mouse obesity atlas
+Version: 0.0.0.9000
+Authors@R: 
+    person("John", "Tello", , "jtello2190@gmail.com", role = c("aut", "cre"))
+Description: Explore the mouse obesity atlas.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    cli,
+    dplyr,
+    ggplot2,
+    janitor,
+    readr,
+    rlang,
+    scales,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0),
+    tibble
+Config/testthat/edition: 3
