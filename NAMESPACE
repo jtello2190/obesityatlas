@@ -3,6 +3,7 @@
 export(cell_composition)
 export(diet_effect)
 export(load_atlas)
+export(run_app)
 export(top_markers)
 importFrom(readr,col_double)
 importFrom(readr,cols)
